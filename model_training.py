@@ -2,7 +2,7 @@ import tensorflow
 from tensorflow import keras
 from keras.preprocessing.image import ImageDataGenerator 
 
-dataset_path='dataset/' #make label to solve this error
+dataset_path='dataset/' 
 
 train_gen=ImageDataGenerator(rescale=1./255,
                              shear_range=0.2,
