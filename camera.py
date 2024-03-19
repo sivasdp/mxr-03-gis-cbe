@@ -9,7 +9,7 @@ duration = 1000
 model = ChainSnatchDetectionModel("model.json",'model_weights.h5')
 font = cv2.FONT_HERSHEY_SIMPLEX
 
-video_path='sample.mp4'
+video_path=None
 
 def startapplication():
     video = cv2.VideoCapture(video_path) 
