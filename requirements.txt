@@ -3,3 +3,6 @@ sklearn
 pandas
 streamlit
 pickle
+keras
+opencv-python
+numpy
