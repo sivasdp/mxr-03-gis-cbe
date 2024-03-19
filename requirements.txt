@@ -2,3 +2,4 @@ tensorflow
 sklearn
 pandas
 streamlit
+pickle

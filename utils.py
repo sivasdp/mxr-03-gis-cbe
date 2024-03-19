@@ -1,5 +1,6 @@
 import sklearn
 from sklearn.metrics import accuracy_score,confusion_matrix,f1_score,average_precision_score,balanced_accuracy_score
+import pandas 
 
 def evaluation_metrics(y_predt,y_test,is_print=False,print_and_return=False):
     '''
