@@ -1,3 +1,3 @@
-from main import say_hello
+from test import say_hello
 
 say_hello()
