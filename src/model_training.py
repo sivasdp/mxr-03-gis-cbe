@@ -1,6 +1,5 @@
 import tensorflow
-from tensorflow import keras
-from keras.preprocessing.image import ImageDataGenerator 
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 dataset_path='dataset/' 
 
@@ -15,3 +14,5 @@ if train_data:
     print("Data Created Sucessfully")
 else:
     print("Some error occured")
+
+
