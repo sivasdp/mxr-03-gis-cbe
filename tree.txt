@@ -1,0 +1,35 @@
+General AI
+
+Project Name : Chain Snatching Detection System
+
+
+.
+¦---.gitignore
+¦---camera.py
+¦---detection.py
+¦---main.py
+¦---README.md
+¦---requirements.txt
+¦---tree.txt
+¦---utils.py
+¦   
++---dataset
+¦   +---Snatch
+¦   ¦   ¦---chain-snatching_d.jpg      
+¦   +---Snatch_None
+¦   ¦   ¦---Non-chain-snatching_d.jpg
++---src
+    ¦---model_testing.py
+    ¦---model_training.py
+    ¦---__init__.py
+    ¦   
+    +---models
+    ¦---dummy_model.json
+    ¦--- dummy_model_weights.h5
+    .
+
+
++-- ==> Folder
+--- ==> Files/Scripts
+           
+            

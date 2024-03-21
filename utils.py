@@ -40,3 +40,13 @@ def evaluation_metrics(y_predt,y_test,is_print=False,print_and_return=False):
         return acc_score,bal_acc_score,f1_scr,avg_pres_score,conf_mat
 
 
+def about():
+    print("-"*130)
+    print("\t\t\t\t\t\t\tAbout the Project")
+    print("-"*130)
+    print("Project Name: Chain Snatch Detection System\nProject ID : GA24MAR001\nAim:\nTo Develop the Deep Learning Based Model to detect the Chain Snatch Theft in a city by using CCTV Camera and ML Algorithms.")
+    print("For further details,please contact the developer.The Developer details are mentioned below")
+    print("Developer Name:Sivadhandapani S")
+    print("Developer Email-id: sdpsiva191@gmail.com")
+    print("-"*130)
+
