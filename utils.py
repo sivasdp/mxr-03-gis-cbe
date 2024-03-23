@@ -1,6 +1,7 @@
 import sklearn
 from sklearn.metrics import accuracy_score,confusion_matrix,f1_score,average_precision_score,balanced_accuracy_score
 import pandas 
+import time
 
 def evaluation_metrics(y_predt,y_test,is_print=False,print_and_return=False):
     '''
@@ -49,4 +50,16 @@ def about():
     print("Developer Name:Sivadhandapani S")
     print("Developer Email-id: sdpsiva191@gmail.com")
     print("-"*130)
+
+
+
+def loading_animation(message):
+    print(message, end="", flush=True)
+    for _ in range(10):
+        print(".", end="", flush=True)  
+        time.sleep(0.5)  
+    print(" Done!")
+
+
+
 

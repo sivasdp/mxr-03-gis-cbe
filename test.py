@@ -6,3 +6,4 @@ if a == True:
     about()
 else:
     print("Something went wrong!")
+
