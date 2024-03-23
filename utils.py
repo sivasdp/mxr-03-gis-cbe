@@ -53,12 +53,12 @@ def about():
 
 
 
-def loading_animation(message):
-    print(message, end="", flush=True)
+def loading_animation(before_message :str,after_message :str):
+    print(before_message, end="", flush=True)
     for _ in range(10):
         print(".", end="", flush=True)  
         time.sleep(0.5)  
-    print(" Done!")
+    print(after_message)
 
 
 
