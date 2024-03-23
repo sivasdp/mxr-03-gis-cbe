@@ -12,7 +12,7 @@ def login(login_title :str,login_name :str):
         password=input("Enter the password:")
         temp=0
         if default_username == username and default_password == password:
-            print(f"Login Sucessfully!")
+            print(f"Login Sucessfull!")
             print("-"*45)
             temp=1
             return True
